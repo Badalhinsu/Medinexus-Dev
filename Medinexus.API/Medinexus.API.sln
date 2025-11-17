@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medinexus.API", "Medinexus.API.csproj", "{8EE8A5E6-0FE0-4C44-AE66-E9F677DEF985}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BA11E4CC-207C-4C73-BCCD-F7B24BDE6669} = {BA11E4CC-207C-4C73-BCCD-F7B24BDE6669}
+		{C23893F3-B7DA-4666-A249-94F64680E550} = {C23893F3-B7DA-4666-A249-94F64680E550}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medinexus.Application", "..\Medinexus.Application\Medinexus.Application.csproj", "{BA11E4CC-207C-4C73-BCCD-F7B24BDE6669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medinexus.Domain", "..\Medinexus.Domain\Medinexus.Domain.csproj", "{61ED9777-8A7C-41A8-9D86-13A7FC0CBC27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medinexus.Infrastructure", "..\Medinexus.Infrastructure\Medinexus.Infrastructure.csproj", "{C23893F3-B7DA-4666-A249-94F64680E550}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medinexus.Database", "..\Medinexus.Database\Medinexus.Database.csproj", "{BC75D79E-2ADE-4C4F-8D39-256E2D3424D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EE8A5E6-0FE0-4C44-AE66-E9F677DEF985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE8A5E6-0FE0-4C44-AE66-E9F677DEF985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE8A5E6-0FE0-4C44-AE66-E9F677DEF985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE8A5E6-0FE0-4C44-AE66-E9F677DEF985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA11E4CC-207C-4C73-BCCD-F7B24BDE6669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA11E4CC-207C-4C73-BCCD-F7B24BDE6669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA11E4CC-207C-4C73-BCCD-F7B24BDE6669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA11E4CC-207C-4C73-BCCD-F7B24BDE6669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61ED9777-8A7C-41A8-9D86-13A7FC0CBC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61ED9777-8A7C-41A8-9D86-13A7FC0CBC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61ED9777-8A7C-41A8-9D86-13A7FC0CBC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61ED9777-8A7C-41A8-9D86-13A7FC0CBC27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23893F3-B7DA-4666-A249-94F64680E550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23893F3-B7DA-4666-A249-94F64680E550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23893F3-B7DA-4666-A249-94F64680E550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23893F3-B7DA-4666-A249-94F64680E550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC75D79E-2ADE-4C4F-8D39-256E2D3424D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC75D79E-2ADE-4C4F-8D39-256E2D3424D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC75D79E-2ADE-4C4F-8D39-256E2D3424D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC75D79E-2ADE-4C4F-8D39-256E2D3424D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4762E4A6-7C8B-495C-81FD-AD30696D8520}
+	EndGlobalSection
+EndGlobal
